@@ -1,8 +1,8 @@
 XFMC for X-Plane 12 – A Relaunch<br/>
-Background< br / >
-Between 2011 and 2019, XFMC was available for X-Plane 9 and 10. Development was discontinued after the release of X-Plane 11. Recently, after purchasing X-Plane 12 and finding the default FMCs somewhat limited, I decided to revive XFMC and make it fully compatible with the latest version of the simulator.< br / >
-Key Improvements< br / >
-The entire codebase has been rewritten and updated. Major changes include:< br / >
+Background<br/>
+Between 2011 and 2019, XFMC was available for X-Plane 9 and 10. Development was discontinued after the release of X-Plane 11. Recently, after purchasing X-Plane 12 and finding the default FMCs somewhat limited, I decided to revive XFMC and make it fully compatible with the latest version of the simulator.<br/>
+Key Improvements<br/>
+The entire codebase has been rewritten and updated. Major changes include:<br/>
 •	Fixes for longstanding bugs< br / >
 •	Proper handling of SID and STAR restrictions< br / >
 •	Approach vector plots aligned with the runway< br / >
