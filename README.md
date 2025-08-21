@@ -1,4 +1,4 @@
-XFMC for X-Plane 12 – A Relaunch< br / >
+XFMC for X-Plane 12 – A Relaunch<br/>
 Background< br / >
 Between 2011 and 2019, XFMC was available for X-Plane 9 and 10. Development was discontinued after the release of X-Plane 11. Recently, after purchasing X-Plane 12 and finding the default FMCs somewhat limited, I decided to revive XFMC and make it fully compatible with the latest version of the simulator.< br / >
 Key Improvements< br / >
