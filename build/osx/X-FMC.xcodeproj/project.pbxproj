@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		446B081A1CD90F5900844DA9 /* airplaneparameters.c in Sources */ = {isa = PBXBuildFile; fileRef = 446B07F11CD90F5900844DA9 /* airplaneparameters.c */; };
+		446B081B1CD90F5900844DA9 /* calculations.c in Sources */ = {isa = PBXBuildFile; fileRef = 446B07F41CD90F5900844DA9 /* calculations.c */; };
+		446B081C1CD90F5900844DA9 /* fmc.c in Sources */ = {isa = PBXBuildFile; fileRef = 446B07F61CD90F5900844DA9 /* fmc.c */; };
+		446B081D1CD90F5900844DA9 /* graphics.c in Sources */ = {isa = PBXBuildFile; fileRef = 446B07F81CD90F5900844DA9 /* graphics.c */; };
+		446B081E1CD90F5900844DA9 /* hold.c in Sources */ = {isa = PBXBuildFile; fileRef = 446B07FA1CD90F5900844DA9 /* hold.c */; };
+		446B081F1CD90F5900844DA9 /* hsi.c in Sources */ = {isa = PBXBuildFile; fileRef = 446B07FC1CD90F5900844DA9 /* hsi.c */; };
+		446B08201CD90F5900844DA9 /* legspage.c in Sources */ = {isa = PBXBuildFile; fileRef = 446B07FE1CD90F5900844DA9 /* legspage.c */; };
+		446B08211CD90F5900844DA9 /* menu.c in Sources */ = {isa = PBXBuildFile; fileRef = 446B08001CD90F5900844DA9 /* menu.c */; };
+		446B08221CD90F5900844DA9 /* performance.c in Sources */ = {isa = PBXBuildFile; fileRef = 446B08021CD90F5900844DA9 /* performance.c */; };
+		446B08231CD90F5900844DA9 /* plugins.c in Sources */ = {isa = PBXBuildFile; fileRef = 446B08041CD90F5900844DA9 /* plugins.c */; };
+		446B08241CD90F5900844DA9 /* progress.c in Sources */ = {isa = PBXBuildFile; fileRef = 446B08061CD90F5900844DA9 /* progress.c */; };
+		446B08251CD90F5900844DA9 /* radios.c in Sources */ = {isa = PBXBuildFile; fileRef = 446B08081CD90F5900844DA9 /* radios.c */; };
+		446B08261CD90F5900844DA9 /* route.c in Sources */ = {isa = PBXBuildFile; fileRef = 446B080A1CD90F5900844DA9 /* route.c */; };
+		446B08271CD90F5900844DA9 /* runways.c in Sources */ = {isa = PBXBuildFile; fileRef = 446B080C1CD90F5900844DA9 /* runways.c */; };
+		446B08281CD90F5900844DA9 /* sound.c in Sources */ = {isa = PBXBuildFile; fileRef = 446B080E1CD90F5900844DA9 /* sound.c */; };
+		446B08291CD90F5900844DA9 /* stb_image_aug.c in Sources */ = {isa = PBXBuildFile; fileRef = 446B08101CD90F5900844DA9 /* stb_image_aug.c */; };
+		446B082A1CD90F5900844DA9 /* terminalproc.c in Sources */ = {isa = PBXBuildFile; fileRef = 446B08141CD90F5900844DA9 /* terminalproc.c */; };
+		446B082B1CD90F5900844DA9 /* thrustlimit.c in Sources */ = {isa = PBXBuildFile; fileRef = 446B08161CD90F5900844DA9 /* thrustlimit.c */; };
+		446B082C1CD90F5900844DA9 /* vnav.c in Sources */ = {isa = PBXBuildFile; fileRef = 446B08181CD90F5900844DA9 /* vnav.c */; };
+		446B08301CD910CA00844DA9 /* XPLM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 446B082F1CD910CA00844DA9 /* XPLM.framework */; };
+		44E20AC21CD9534300AE87E9 /* libfreetype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E20AC11CD9534300AE87E9 /* libfreetype.a */; };
+		44E20AC41CD9538000AE87E9 /* libfmodex.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E20AC31CD9538000AE87E9 /* libfmodex.dylib */; };
+		D6A7BDAA16A1DEA200D1426A /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6A7BDA916A1DEA200D1426A /* OpenGL.framework */; };
+		D6A7BDC116A1DEC000D1426A /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6A7BDC016A1DEC000D1426A /* CoreFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		446B07F11CD90F5900844DA9 /* airplaneparameters.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = airplaneparameters.c; path = ../../source/airplaneparameters.c; sourceTree = "<group>"; };
+		446B07F21CD90F5900844DA9 /* airplaneparameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = airplaneparameters.h; path = ../../source/airplaneparameters.h; sourceTree = "<group>"; };
+		446B07F31CD90F5900844DA9 /* BitmapSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BitmapSupport.h; path = ../../source/BitmapSupport.h; sourceTree = "<group>"; };
+		446B07F41CD90F5900844DA9 /* calculations.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = calculations.c; path = ../../source/calculations.c; sourceTree = "<group>"; };
+		446B07F51CD90F5900844DA9 /* calculations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = calculations.h; path = ../../source/calculations.h; sourceTree = "<group>"; };
+		446B07F61CD90F5900844DA9 /* fmc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fmc.c; path = ../../source/fmc.c; sourceTree = "<group>"; };
+		446B07F71CD90F5900844DA9 /* fmc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fmc.h; path = ../../source/fmc.h; sourceTree = "<group>"; };
+		446B07F81CD90F5900844DA9 /* graphics.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = graphics.c; path = ../../source/graphics.c; sourceTree = "<group>"; };
+		446B07F91CD90F5900844DA9 /* graphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = graphics.h; path = ../../source/graphics.h; sourceTree = "<group>"; };
+		446B07FA1CD90F5900844DA9 /* hold.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hold.c; path = ../../source/hold.c; sourceTree = "<group>"; };
+		446B07FB1CD90F5900844DA9 /* hold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hold.h; path = ../../source/hold.h; sourceTree = "<group>"; };
+		446B07FC1CD90F5900844DA9 /* hsi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hsi.c; path = ../../source/hsi.c; sourceTree = "<group>"; };
+		446B07FD1CD90F5900844DA9 /* hsi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hsi.h; path = ../../source/hsi.h; sourceTree = "<group>"; };
+		446B07FE1CD90F5900844DA9 /* legspage.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = legspage.c; path = ../../source/legspage.c; sourceTree = "<group>"; };
+		446B07FF1CD90F5900844DA9 /* legspage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = legspage.h; path = ../../source/legspage.h; sourceTree = "<group>"; };
+		446B08001CD90F5900844DA9 /* menu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = menu.c; path = ../../source/menu.c; sourceTree = "<group>"; };
+		446B08011CD90F5900844DA9 /* menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = menu.h; path = ../../source/menu.h; sourceTree = "<group>"; };
+		446B08021CD90F5900844DA9 /* performance.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = performance.c; path = ../../source/performance.c; sourceTree = "<group>"; };
+		446B08031CD90F5900844DA9 /* performance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = performance.h; path = ../../source/performance.h; sourceTree = "<group>"; };
+		446B08041CD90F5900844DA9 /* plugins.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = plugins.c; path = ../../source/plugins.c; sourceTree = "<group>"; };
+		446B08051CD90F5900844DA9 /* plugins.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = plugins.h; path = ../../source/plugins.h; sourceTree = "<group>"; };
+		446B08061CD90F5900844DA9 /* progress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = progress.c; path = ../../source/progress.c; sourceTree = "<group>"; };
+		446B08071CD90F5900844DA9 /* progress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = progress.h; path = ../../source/progress.h; sourceTree = "<group>"; };
+		446B08081CD90F5900844DA9 /* radios.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = radios.c; path = ../../source/radios.c; sourceTree = "<group>"; };
+		446B08091CD90F5900844DA9 /* radios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = radios.h; path = ../../source/radios.h; sourceTree = "<group>"; };
+		446B080A1CD90F5900844DA9 /* route.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = route.c; path = ../../source/route.c; sourceTree = "<group>"; };
+		446B080B1CD90F5900844DA9 /* route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = route.h; path = ../../source/route.h; sourceTree = "<group>"; };
+		446B080C1CD90F5900844DA9 /* runways.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = runways.c; path = ../../source/runways.c; sourceTree = "<group>"; };
+		446B080D1CD90F5900844DA9 /* runways.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = runways.h; path = ../../source/runways.h; sourceTree = "<group>"; };
+		446B080E1CD90F5900844DA9 /* sound.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sound.c; path = ../../source/sound.c; sourceTree = "<group>"; };
+		446B080F1CD90F5900844DA9 /* sound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sound.h; path = ../../source/sound.h; sourceTree = "<group>"; };
+		446B08101CD90F5900844DA9 /* stb_image_aug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stb_image_aug.c; path = ../../source/stb_image_aug.c; sourceTree = "<group>"; };
+		446B08111CD90F5900844DA9 /* stb_image_aug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stb_image_aug.h; path = ../../source/stb_image_aug.h; sourceTree = "<group>"; };
+		446B08121CD90F5900844DA9 /* stbi_DDS_aug_c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stbi_DDS_aug_c.h; path = ../../source/stbi_DDS_aug_c.h; sourceTree = "<group>"; };
+		446B08131CD90F5900844DA9 /* stbi_DDS_aug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stbi_DDS_aug.h; path = ../../source/stbi_DDS_aug.h; sourceTree = "<group>"; };
+		446B08141CD90F5900844DA9 /* terminalproc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = terminalproc.c; path = ../../source/terminalproc.c; sourceTree = "<group>"; };
+		446B08151CD90F5900844DA9 /* terminalproc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = terminalproc.h; path = ../../source/terminalproc.h; sourceTree = "<group>"; };
+		446B08161CD90F5900844DA9 /* thrustlimit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = thrustlimit.c; path = ../../source/thrustlimit.c; sourceTree = "<group>"; };
+		446B08171CD90F5900844DA9 /* thrustlimit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = thrustlimit.h; path = ../../source/thrustlimit.h; sourceTree = "<group>"; };
+		446B08181CD90F5900844DA9 /* vnav.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vnav.c; path = ../../source/vnav.c; sourceTree = "<group>"; };
+		446B08191CD90F5900844DA9 /* vnav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vnav.h; path = ../../source/vnav.h; sourceTree = "<group>"; };
+		446B082F1CD910CA00844DA9 /* XPLM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XPLM.framework; path = ../../libraries/XP_SDK/Libraries/Mac/XPLM.framework; sourceTree = "<group>"; };
+		44E20AC11CD9534300AE87E9 /* libfreetype.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfreetype.a; path = "../../libraries/freetype-2.5.2/libs/MacOS/libfreetype.a"; sourceTree = "<group>"; };
+		44E20AC31CD9538000AE87E9 /* libfmodex.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfmodex.dylib; path = ../../libraries/FMOD/Mac/api/lib/libfmodex.dylib; sourceTree = "<group>"; };
+		D607B19909A556E400699BC3 /* mac.xpl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = mac.xpl; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6A7BDA916A1DEA200D1426A /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		D6A7BDC016A1DEC000D1426A /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D607B19709A556E400699BC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E20AC41CD9538000AE87E9 /* libfmodex.dylib in Frameworks */,
+				44E20AC21CD9534300AE87E9 /* libfreetype.a in Frameworks */,
+				446B08301CD910CA00844DA9 /* XPLM.framework in Frameworks */,
+				D6A7BDAA16A1DEA200D1426A /* OpenGL.framework in Frameworks */,
+				D6A7BDC116A1DEC000D1426A /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC4E46B809C2E0B3006B7E1B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				446B07F11CD90F5900844DA9 /* airplaneparameters.c */,
+				446B07F21CD90F5900844DA9 /* airplaneparameters.h */,
+				446B07F31CD90F5900844DA9 /* BitmapSupport.h */,
+				446B07F41CD90F5900844DA9 /* calculations.c */,
+				446B07F51CD90F5900844DA9 /* calculations.h */,
+				446B07F61CD90F5900844DA9 /* fmc.c */,
+				446B07F71CD90F5900844DA9 /* fmc.h */,
+				446B07F81CD90F5900844DA9 /* graphics.c */,
+				446B07F91CD90F5900844DA9 /* graphics.h */,
+				446B07FA1CD90F5900844DA9 /* hold.c */,
+				446B07FB1CD90F5900844DA9 /* hold.h */,
+				446B07FC1CD90F5900844DA9 /* hsi.c */,
+				446B07FD1CD90F5900844DA9 /* hsi.h */,
+				446B07FE1CD90F5900844DA9 /* legspage.c */,
+				446B07FF1CD90F5900844DA9 /* legspage.h */,
+				446B08001CD90F5900844DA9 /* menu.c */,
+				446B08011CD90F5900844DA9 /* menu.h */,
+				446B08021CD90F5900844DA9 /* performance.c */,
+				446B08031CD90F5900844DA9 /* performance.h */,
+				446B08041CD90F5900844DA9 /* plugins.c */,
+				446B08051CD90F5900844DA9 /* plugins.h */,
+				446B08061CD90F5900844DA9 /* progress.c */,
+				446B08071CD90F5900844DA9 /* progress.h */,
+				446B08081CD90F5900844DA9 /* radios.c */,
+				446B08091CD90F5900844DA9 /* radios.h */,
+				446B080A1CD90F5900844DA9 /* route.c */,
+				446B080B1CD90F5900844DA9 /* route.h */,
+				446B080C1CD90F5900844DA9 /* runways.c */,
+				446B080D1CD90F5900844DA9 /* runways.h */,
+				446B080E1CD90F5900844DA9 /* sound.c */,
+				446B080F1CD90F5900844DA9 /* sound.h */,
+				446B08101CD90F5900844DA9 /* stb_image_aug.c */,
+				446B08111CD90F5900844DA9 /* stb_image_aug.h */,
+				446B08121CD90F5900844DA9 /* stbi_DDS_aug_c.h */,
+				446B08131CD90F5900844DA9 /* stbi_DDS_aug.h */,
+				446B08141CD90F5900844DA9 /* terminalproc.c */,
+				446B08151CD90F5900844DA9 /* terminalproc.h */,
+				446B08161CD90F5900844DA9 /* thrustlimit.c */,
+				446B08171CD90F5900844DA9 /* thrustlimit.h */,
+				446B08181CD90F5900844DA9 /* vnav.c */,
+				446B08191CD90F5900844DA9 /* vnav.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		D607B15F09A5563000699BC3 = {
+			isa = PBXGroup;
+			children = (
+				D6A7BDAD16A1DEA700D1426A /* Frameworks */,
+				AC4E46B809C2E0B3006B7E1B /* Source */,
+				D607B19A09A556E400699BC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D607B19A09A556E400699BC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D607B19909A556E400699BC3 /* mac.xpl */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6A7BDAD16A1DEA700D1426A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44E20AC31CD9538000AE87E9 /* libfmodex.dylib */,
+				44E20AC11CD9534300AE87E9 /* libfreetype.a */,
+				446B082F1CD910CA00844DA9 /* XPLM.framework */,
+				D6A7BDC016A1DEC000D1426A /* CoreFoundation.framework */,
+				D6A7BDA916A1DEA200D1426A /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D607B19809A556E400699BC3 /* X-FMC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D607B19B09A556E400699BC3 /* Build configuration list for PBXNativeTarget "X-FMC" */;
+			buildPhases = (
+				D607B19609A556E400699BC3 /* Sources */,
+				D607B19709A556E400699BC3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "X-FMC";
+			productName = StarterPlugin;
+			productReference = D607B19909A556E400699BC3 /* mac.xpl */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D607B16109A5563100699BC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+			};
+			buildConfigurationList = D607B16209A5563100699BC3 /* Build configuration list for PBXProject "X-FMC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = D607B15F09A5563000699BC3;
+			productRefGroup = D607B19A09A556E400699BC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D607B19809A556E400699BC3 /* X-FMC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D607B19609A556E400699BC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				446B08281CD90F5900844DA9 /* sound.c in Sources */,
+				446B08231CD90F5900844DA9 /* plugins.c in Sources */,
+				446B08201CD90F5900844DA9 /* legspage.c in Sources */,
+				446B081F1CD90F5900844DA9 /* hsi.c in Sources */,
+				446B08271CD90F5900844DA9 /* runways.c in Sources */,
+				446B08221CD90F5900844DA9 /* performance.c in Sources */,
+				446B081E1CD90F5900844DA9 /* hold.c in Sources */,
+				446B082B1CD90F5900844DA9 /* thrustlimit.c in Sources */,
+				446B08291CD90F5900844DA9 /* stb_image_aug.c in Sources */,
+				446B081D1CD90F5900844DA9 /* graphics.c in Sources */,
+				446B082A1CD90F5900844DA9 /* terminalproc.c in Sources */,
+				446B08211CD90F5900844DA9 /* menu.c in Sources */,
+				446B08251CD90F5900844DA9 /* radios.c in Sources */,
+				446B081C1CD90F5900844DA9 /* fmc.c in Sources */,
+				446B081A1CD90F5900844DA9 /* airplaneparameters.c in Sources */,
+				446B081B1CD90F5900844DA9 /* calculations.c in Sources */,
+				446B082C1CD90F5900844DA9 /* vnav.c in Sources */,
+				446B08261CD90F5900844DA9 /* route.c in Sources */,
+				446B08241CD90F5900844DA9 /* progress.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D607B16309A5563100699BC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				ENABLE_TESTABILITY = YES;
+				EXECUTABLE_EXTENSION = xpl;
+				FMOD_ROOT = FMOD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(XPSDK_ROOT)/Libraries/Mac",
+					"$(FMOD_ROOT)/Mac/api/lib",
+					"$(FT_ROOT)/libs/MacOS/**",
+				);
+				FT_ROOT = FT;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"APL=1",
+					"IBM=0",
+					"LIN=0",
+					"XPLM200=1",
+					"XPLM210=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = (
+					"$(XPSDK_ROOT)/CHeaders/XPLM",
+					"$(FT_ROOT)/include",
+					"$(FMOD_ROOT)/Mac/api/inc",
+					"$(HEADER_SEARCH_PATHS)",
+				);
+				MACH_O_TYPE = mh_bundle;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-Wl,-exported_symbol",
+					"-Wl,_XPluginStart",
+					"-Wl,-exported_symbol",
+					"-Wl,_XPluginEnable",
+					"-Wl,-exported_symbol",
+					"-Wl,_XPluginReceiveMessage",
+					"-Wl,-exported_symbol",
+					"-Wl,_XPluginDisable",
+					"-Wl,-exported_symbol",
+					"-Wl,_XPluginStop",
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = macosx;
+				XPSDK_ROOT = SDK;
+			};
+			name = Debug;
+		};
+		D607B16409A5563100699BC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_EXTENSION = xpl;
+				FMOD_ROOT = FMOD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(XPSDK_ROOT)/Libraries/Mac",
+					"$(FMOD_ROOT)/Mac/api/lib",
+					"$(FT_ROOT)/libs/MacOS/**",
+				);
+				FT_ROOT = FT;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"APL=1",
+					"IBM=0",
+					"LIN=0",
+					"XPLM200=1",
+					"XPLM210=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = (
+					"$(XPSDK_ROOT)/CHeaders/XPLM",
+					"$(FT_ROOT)/include",
+					"$(FMOD_ROOT)/Mac/api/inc",
+					"$(HEADER_SEARCH_PATHS)",
+				);
+				MACH_O_TYPE = mh_bundle;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-Wl,-exported_symbol",
+					"-Wl,_XPluginStart",
+					"-Wl,-exported_symbol",
+					"-Wl,_XPluginEnable",
+					"-Wl,-exported_symbol",
+					"-Wl,_XPluginReceiveMessage",
+					"-Wl,-exported_symbol",
+					"-Wl,_XPluginDisable",
+					"-Wl,-exported_symbol",
+					"-Wl,_XPluginStop",
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = macosx;
+				XPSDK_ROOT = SDK;
+			};
+			name = Release;
+		};
+		D607B19C09A556E400699BC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALTERNATE_OWNER = "$(USER)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FMOD_ROOT = ../../libraries/FMOD;
+				FRAMEWORK_SEARCH_PATHS = "$(XPSDK_ROOT)/Libraries/Mac";
+				FT_ROOT = "../../libraries/freetype-2.5.2";
+				HEADER_SEARCH_PATHS = (
+					"$(XPSDK_ROOT)/CHeaders/XPLM",
+					"$(FT_ROOT)/include/**",
+					"$(FMOD_ROOT)/Mac/api/inc",
+					"$(HEADER_SEARCH_PATHS)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(FMOD_ROOT)/Mac/api/lib",
+					"$(FT_ROOT)/libs/MacOS",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = mac;
+				USER_HEADER_SEARCH_PATHS = "";
+				XPSDK_ROOT = ../../libraries/XP_SDK;
+			};
+			name = Debug;
+		};
+		D607B19D09A556E400699BC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALTERNATE_OWNER = "$(USER)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_TESTABILITY = NO;
+				FMOD_ROOT = ../../libraries/FMOD;
+				FRAMEWORK_SEARCH_PATHS = "$(XPSDK_ROOT)/Libraries/Mac";
+				FT_ROOT = "../../libraries/freetype-2.5.2";
+				HEADER_SEARCH_PATHS = (
+					"$(XPSDK_ROOT)/CHeaders/XPLM",
+					"$(FT_ROOT)/include/**",
+					"$(FMOD_ROOT)/Mac/api/inc",
+					"$(HEADER_SEARCH_PATHS)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(FMOD_ROOT)/Mac/api/lib",
+					"$(FT_ROOT)/libs/MacOS",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = mac;
+				USER_HEADER_SEARCH_PATHS = "";
+				XPSDK_ROOT = ../../libraries/XP_SDK;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D607B16209A5563100699BC3 /* Build configuration list for PBXProject "X-FMC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D607B16309A5563100699BC3 /* Debug */,
+				D607B16409A5563100699BC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D607B19B09A556E400699BC3 /* Build configuration list for PBXNativeTarget "X-FMC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D607B19C09A556E400699BC3 /* Debug */,
+				D607B19D09A556E400699BC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D607B16109A5563100699BC3 /* Project object */;
+}

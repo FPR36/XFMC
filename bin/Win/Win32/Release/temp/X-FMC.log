@@ -1,0 +1,353 @@
+﻿  airplaneparameters.c
+..\..\source\airplaneparameters.c(1083): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\airplaneparameters.c(1086): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\airplaneparameters.c(1094): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\airplaneparameters.c(1145): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\airplaneparameters.c(1150): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\airplaneparameters.c(1156): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\airplaneparameters.c(1166): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\source\airplaneparameters.c(1167): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\source\airplaneparameters.c(1168): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\source\airplaneparameters.c(1169): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\source\airplaneparameters.c(1170): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\source\airplaneparameters.c(1171): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\source\airplaneparameters.c(1183): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\source\airplaneparameters.c(1184): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\source\airplaneparameters.c(1251): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\source\airplaneparameters.c(1268): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\source\airplaneparameters.c(1291): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+..\..\source\airplaneparameters.c(1291): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\source\airplaneparameters.c(1307): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\source\airplaneparameters.c(1426): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\source\airplaneparameters.c(1532): warning C4305: '=': truncation from 'double' to 'float'
+  calculations.c
+..\..\source\calculations.c(156): warning C4101: 'text': unreferenced local variable
+..\..\source\calculations.c(213): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+..\..\source\calculations.c(223): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\calculations.c(224): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+..\..\source\calculations.c(245): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\calculations.c(246): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\calculations.c(263): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+..\..\source\calculations.c(278): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+..\..\source\calculations.c(281): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+..\..\source\calculations.c(286): warning C4244: '=': conversion from 'float' to 'intptr_t', possible loss of data
+..\..\source\calculations.c(333): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\source\calculations.c(341): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\source\calculations.c(347): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\calculations.c(415): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\source\calculations.c(428): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+..\..\source\calculations.c(435): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+..\..\source\calculations.c(454): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\calculations.c(460): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\source\calculations.c(579): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+..\..\source\calculations.c(600): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+..\..\source\calculations.c(632): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+..\..\source\calculations.c(644): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+..\..\source\calculations.c(674): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+..\..\source\calculations.c(676): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\calculations.c(716): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\calculations.c(786): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+..\..\source\calculations.c(789): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\calculations.c(842): warning C4244: '=': conversion from 'float' to 'intptr_t', possible loss of data
+..\..\source\calculations.c(880): warning C4244: '=': conversion from 'float' to 'intptr_t', possible loss of data
+..\..\source\calculations.c(881): warning C4244: '=': conversion from 'float' to 'intptr_t', possible loss of data
+..\..\source\calculations.c(882): warning C4244: '+=': conversion from 'float' to 'intptr_t', possible loss of data
+..\..\source\calculations.c(906): warning C4305: 'function': truncation from 'double' to 'float'
+..\..\source\calculations.c(907): warning C4305: 'function': truncation from 'double' to 'float'
+..\..\source\calculations.c(984): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+..\..\source\calculations.c(991): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  fmc.c
+..\..\source\fmc.c(420): warning C4101: 'text': unreferenced local variable
+..\..\source\fmc.c(978): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\source\fmc.c(980): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\source\fmc.c(983): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\source\fmc.c(984): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\source\fmc.c(986): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\source\fmc.c(990): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\source\fmc.c(992): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\source\fmc.c(1017): warning C4305: 'return': truncation from 'double' to 'float'
+..\..\source\fmc.c(1036): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+..\..\source\fmc.c(1038): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+..\..\source\fmc.c(1041): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+..\..\source\fmc.c(1043): warning C4244: '=': conversion from 'float' to 'intptr_t', possible loss of data
+..\..\source\fmc.c(1134): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+..\..\source\fmc.c(1183): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+..\..\source\fmc.c(1029): warning C4101: 'text': unreferenced local variable
+  graphics.c
+..\..\source\graphics.c(426): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\source\graphics.c(455): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+..\..\source\graphics.c(588): warning C4244: 'function': conversion from 'FT_Int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(592): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(613): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(615): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(616): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(622): warning C4244: 'function': conversion from 'FT_Pos' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(708): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+..\..\source\graphics.c(719): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(721): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(715): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+..\..\source\graphics.c(824): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\graphics.c(825): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\graphics.c(843): warning C4244: 'function': conversion from 'float' to 'GLint', possible loss of data
+..\..\source\graphics.c(844): warning C4244: 'function': conversion from 'float' to 'GLint', possible loss of data
+..\..\source\graphics.c(845): warning C4244: 'function': conversion from 'float' to 'GLint', possible loss of data
+..\..\source\graphics.c(846): warning C4244: 'function': conversion from 'float' to 'GLint', possible loss of data
+..\..\source\graphics.c(812): warning C4101: 'modelview_matrix': unreferenced local variable
+..\..\source\graphics.c(860): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(861): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(862): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(863): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(864): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(865): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(866): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(867): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(871): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(872): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(873): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(874): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(875): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(876): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(877): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(878): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(879): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(880): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(881): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(895): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(896): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(897): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(898): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(899): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(900): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(901): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(902): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(903): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(904): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(905): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(906): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(907): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(908): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(911): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(912): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(913): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(914): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(915): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(927): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(929): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(930): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(934): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(935): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(936): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(938): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(939): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(940): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(941): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(955): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\graphics.c(956): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\graphics.c(974): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(975): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(976): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(977): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(978): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(979): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(992): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(993): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(986): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+..\..\source\graphics.c(1012): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\graphics.c(1013): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\graphics.c(1020): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(1021): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(1022): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(1028): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(1029): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(1030): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(1035): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(1036): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(1037): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(1038): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(1043): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(1044): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(1045): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(1046): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(1047): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(1048): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(1049): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(1050): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(1051): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(1052): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(1053): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(1054): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(1055): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(1056): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(1063): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(1064): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(1065): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(1066): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(1067): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(1068): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(1069): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(1070): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(1071): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(1072): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+..\..\source\graphics.c(1131): warning C4101: 'x': unreferenced local variable
+  hold.c
+..\..\source\hold.c(135): warning C4244: '=': conversion from 'intptr_t' to 'float', possible loss of data
+..\..\source\hold.c(260): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+..\..\source\hold.c(343): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\hold.c(345): warning C4244: '=': conversion from 'float' to 'intptr_t', possible loss of data
+..\..\source\hold.c(611): warning C4047: '==': 'size_t' differs in levels of indirection from 'void *'
+..\..\source\hold.c(694): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\hold.c(724): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\hold.c(762): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  hsi.c
+..\..\source\hsi.c(81): warning C4101: 'i': unreferenced local variable
+..\..\source\hsi.c(266): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+..\..\source\hsi.c(267): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+..\..\source\hsi.c(298): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+..\..\source\hsi.c(299): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+..\..\source\hsi.c(300): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+..\..\source\hsi.c(301): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+..\..\source\hsi.c(302): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\hsi.c(303): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\hsi.c(366): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\hsi.c(379): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+..\..\source\hsi.c(380): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\hsi.c(381): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\hsi.c(338): warning C4101: 'text': unreferenced local variable
+..\..\source\hsi.c(408): warning C4244: '=': conversion from 'float' to 'char', possible loss of data
+..\..\source\hsi.c(409): warning C4244: '=': conversion from 'float' to 'char', possible loss of data
+  legspage.c
+..\..\source\legspage.c(146): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+..\..\source\legspage.c(261): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\legspage.c(262): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  menu.c
+..\..\source\menu.c(229): warning C4047: '=': 'char' differs in levels of indirection from 'void *'
+..\..\source\menu.c(320): warning C4018: '<': signed/unsigned mismatch
+..\..\source\menu.c(635): warning C4778: 'sprintf' : unterminated format string '%'
+..\..\source\menu.c(644): warning C4778: 'sprintf' : unterminated format string '%'
+..\..\source\menu.c(652): warning C4778: 'sprintf' : unterminated format string '%'
+..\..\source\menu.c(660): warning C4778: 'sprintf' : unterminated format string '%'
+..\..\source\menu.c(661): warning C4476: 'sprintf' : unknown type field character '/' in format specifier
+..\..\source\menu.c(661): warning C4778: 'sprintf' : unterminated format string '%'
+..\..\source\menu.c(769): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\menu.c(770): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\menu.c(771): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\menu.c(1134): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\source\menu.c(1166): warning C4244: '=': conversion from 'intptr_t' to 'float', possible loss of data
+..\..\source\menu.c(1169): warning C4244: '=': conversion from 'float' to 'intptr_t', possible loss of data
+..\..\source\menu.c(1171): warning C4244: '=': conversion from 'float' to 'intptr_t', possible loss of data
+..\..\source\menu.c(1193): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\menu.c(1212): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+..\..\source\menu.c(1230): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\menu.c(1237): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+..\..\source\menu.c(1404): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  performance.c
+..\..\source\performance.c(174): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  plugins.c
+..\..\source\plugins.c(277): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+..\..\source\plugins.c(278): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+..\..\source\plugins.c(279): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+..\..\source\plugins.c(507): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+..\..\source\plugins.c(508): warning C4244: 'function': conversion from 'intptr_t' to 'float', possible loss of data
+..\..\source\plugins.c(511): warning C4244: 'function': conversion from 'intptr_t' to 'float', possible loss of data
+..\..\source\plugins.c(529): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+..\..\source\plugins.c(530): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+..\..\source\plugins.c(531): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+..\..\source\plugins.c(781): warning C4244: 'function': conversion from 'intptr_t' to 'float', possible loss of data
+..\..\source\plugins.c(782): warning C4244: 'function': conversion from 'intptr_t' to 'float', possible loss of data
+..\..\source\plugins.c(783): warning C4244: 'function': conversion from 'intptr_t' to 'float', possible loss of data
+..\..\source\plugins.c(807): warning C4098: 'SetFlightdirector': 'void' function returning a value
+..\..\source\plugins.c(817): warning C4098: 'SetFlightdirector': 'void' function returning a value
+  progress.c
+..\..\source\progress.c(95): warning C4244: '=': conversion from 'intptr_t' to 'float', possible loss of data
+..\..\source\progress.c(113): warning C4244: '=': conversion from 'intptr_t' to 'float', possible loss of data
+..\..\source\progress.c(201): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\progress.c(202): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+..\..\source\progress.c(206): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\progress.c(207): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+  radios.c
+..\..\source\radios.c(121): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\radios.c(138): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\source\radios.c(139): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+..\..\source\radios.c(141): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\radios.c(149): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\source\radios.c(150): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+..\..\source\radios.c(152): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\radios.c(168): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+..\..\source\radios.c(169): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+  route.c
+..\..\source\route.c(382): warning C4047: 'function': 'char' differs in levels of indirection from 'char [3]'
+..\..\source\route.c(382): warning C4024: 'distance': different types for formal and actual parameter 5
+..\..\source\route.c(391): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\route.c(392): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\route.c(462): warning C4047: 'function': 'char' differs in levels of indirection from 'char [3]'
+..\..\source\route.c(462): warning C4024: 'distance': different types for formal and actual parameter 5
+..\..\source\route.c(474): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\route.c(475): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\route.c(412): warning C4101: 'text': unreferenced local variable
+..\..\source\route.c(554): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\route.c(557): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\route.c(565): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\route.c(568): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  runways.c
+..\..\source\runways.c(455): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\runways.c(458): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\runways.c(480): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\runways.c(483): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\runways.c(497): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\runways.c(500): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  sound.c
+..\..\source\sound.c(55): warning C4090: 'function': different 'const' qualifiers
+  stb_image_aug.c
+d:\onedrive\documents\xfmc\source\stbi_DDS_aug_c.h(362): warning C4018: '>': signed/unsigned mismatch
+d:\onedrive\documents\xfmc\source\stbi_DDS_aug_c.h(366): warning C4018: '>': signed/unsigned mismatch
+d:\onedrive\documents\xfmc\source\stbi_DDS_aug_c.h(390): warning C4018: '<': signed/unsigned mismatch
+d:\onedrive\documents\xfmc\source\stbi_DDS_aug_c.h(427): warning C4018: '<': signed/unsigned mismatch
+  terminalproc.c
+..\..\source\terminalproc.c(324): warning C4047: '=': 'char' differs in levels of indirection from 'void *'
+..\..\source\terminalproc.c(436): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\terminalproc.c(439): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  thrustlimit.c
+..\..\source\thrustlimit.c(160): warning C4305: '-=': truncation from 'double' to 'float'
+..\..\source\thrustlimit.c(161): warning C4305: '+=': truncation from 'double' to 'float'
+..\..\source\thrustlimit.c(162): warning C4305: '-=': truncation from 'double' to 'float'
+..\..\source\thrustlimit.c(163): warning C4305: '=': truncation from 'double' to 'float'
+..\..\source\thrustlimit.c(181): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\source\thrustlimit.c(235): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+..\..\source\thrustlimit.c(243): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  vnav.c
+..\..\source\vnav.c(96): warning C4305: 'initializing': truncation from 'double' to 'const float'
+..\..\source\vnav.c(395): warning C4244: '+=': conversion from 'float' to 'intptr_t', possible loss of data
+..\..\source\vnav.c(433): warning C4244: '=': conversion from 'intptr_t' to 'float', possible loss of data
+..\..\source\vnav.c(438): warning C4244: 'function': conversion from 'float' to 'intptr_t', possible loss of data
+..\..\source\vnav.c(413): warning C4244: 'initializing': conversion from 'intptr_t' to 'float', possible loss of data
+..\..\source\vnav.c(414): warning C4244: 'initializing': conversion from 'intptr_t' to 'float', possible loss of data
+..\..\source\vnav.c(484): warning C4244: '*=': conversion from 'const float' to 'int', possible loss of data
+..\..\source\vnav.c(599): warning C4244: '=': conversion from 'float' to 'intptr_t', possible loss of data
+..\..\source\vnav.c(653): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\vnav.c(667): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\vnav.c(679): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\vnav.c(859): warning C4244: '=': conversion from 'double' to 'intptr_t', possible loss of data
+..\..\source\vnav.c(871): warning C4244: '=': conversion from 'double' to 'intptr_t', possible loss of data
+..\..\source\vnav.c(937): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+..\..\source\vnav.c(966): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\..\source\vnav.c(968): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+..\..\source\vnav.c(1203): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\source\vnav.c(1204): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\source\vnav.c(1206): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\source\vnav.c(1208): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\source\vnav.c(1219): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\source\vnav.c(1221): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\source\vnav.c(1222): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\source\vnav.c(1232): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\source\vnav.c(1233): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\source\vnav.c(1236): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+..\..\source\vnav.c(1240): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+..\..\source\vnav.c(1241): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+..\..\source\vnav.c(1242): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+d:\onedrive\documents\xfmc\source\plugins.c(711): warning C4715: 'SetVspeed': not all control paths return a value
+  LINK : ..\..\bin\Win\Win32\Release\win.xpl not found or not built by the last incremental link; performing full link
+     Creating library ..\..\bin\Win\Win32\Release\win.lib and object ..\..\bin\Win\Win32\Release\win.exp
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  X-FMC.vcxproj -> D:\OneDrive\Documents\XFMC\build\win\..\..\bin\Win\Win32\Release\win.xpl
+  X-FMC.vcxproj -> ..\..\bin\Win\Win32\Release\win.pdb (Full PDB)

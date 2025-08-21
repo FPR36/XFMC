@@ -1,0 +1,1 @@
+you can replace the acf file incase the autopilot is wobbly hunting the heading. The included acf file has standaard ap tuning

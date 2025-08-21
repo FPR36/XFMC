@@ -1,0 +1,1 @@
+the baron and other planes with the GNS430 autopilot has only limited possibility's to match XFMC. You only have headingsteering, can follow a flightplane. Vnav isnt working.  Altitude will be provided by XFMC but the plane wont level off.  Automated functions as flaps, gear, transponder are working

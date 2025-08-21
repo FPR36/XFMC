@@ -1,0 +1,1 @@
+in case you encounter some "hunting or "oscillating" with the Zibo 4k try the provided acf file, which has better tuning for the autpilot using headingsteering.

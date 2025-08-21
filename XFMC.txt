@@ -1,0 +1,29 @@
+#Date=Sun Aug 17 09:41:29 2025
+
+[FlareModule] Flare module initialized.
+Sound Loaded
+Graphics Loaded
+Release:  3 XFMC: New General Config Saved
+
+?? UDP bind op IP:0.0.0.0?? UDP bind op poort:51713[NETWORK] UDP - server ready on port : 51713
+[NETWORK] Your PC Ip: 192.168.1.248
+Xfmc Enabled
+?? model_Cessna CX NIET volledig geladen (missing refs)
+?? model_x737 NIET volledig geladen (missing refs)
+?? Probing Zibo 737 datarefs...
+?? Zibo model niet volledig ondersteund (ontbrekende datarefs)
+?? Probing default B738 datarefs...
+?? model_B738 NIET volledig geladen (missing refs)
+?? Probing A333 datarefs & commands...
+? model_A333 geselecteerd: alle datarefs OK
+?? model_Cessna CX NIET volledig geladen (missing refs)
+?? model_x737 NIET volledig geladen (missing refs)
+?? Probing Zibo 737 datarefs...
+?? Zibo model niet volledig ondersteund (ontbrekende datarefs)
+?? Probing default B738 datarefs...
+?? model_B738 NIET volledig geladen (missing refs)
+?? Probing A333 datarefs & commands...
+? model_A333 geselecteerd: alle datarefs OK
+Xfmc disabled
+Xfmc stopped
+UDP disconnected.

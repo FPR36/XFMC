@@ -1,0 +1,1 @@
+this cessna has a special autopilot.  it needs to lock on the heading. Thus XFMC cannot command the heading and vspeed as long the buttonlights are flashing. Best way is to set a low alitutude for departure (2000 agl)  and wait until the lights are not flashing anymore. After that click on heading, and v/s and the plane will follow XFMC. This is the best we could do
