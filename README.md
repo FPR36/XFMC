@@ -10,7 +10,8 @@ The entire codebase has been rewritten and updated. Major changes include:<br/>
 •	Added Decision Inhibit functionality<br/>
 •	Completely redesigned VNAV (Vertical Navigation)<br/>
 •	Network support: connect an Android tablet to use XFMC as a remote CDU (Control Display Unit) and MAP<br/>
-•	  
+•	  <img width="609" height="956" alt="Screen Shot 08-19-25 at 12 44 PM" src="https://github.com/user-attachments/assets/de9fcbc1-3e39-4aba-a14f-64caf6430a11" />
+
 Supported Aircraft<br/>
 XFMC is compatible with a wide range of aircraft, including:<br/>
 •	All G1000-equipped aircraft (e.g. Cirrus SF50, Cirrus SR22, Aerobask Phenom, Aerobask DA62, Aerobask RB401, Laminar LanceAir, PiperAeroJet)<br/>
