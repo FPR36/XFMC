@@ -18,7 +18,7 @@ XFMC is compatible with a wide range of aircraft, including:<br/>
 •	Zibo 4K<br/>
 •	X737 by Benedikt Stratmann<br/>
 Navigation Data<br/>
-XFMC uses the Navigraph database, which provides SID/STAR and airport data. Without Navigraph, XFMC will fall back to X-Plane’s internal database (note: this does not include SID/STAR). To disable Navigraph support, open XFMC.ini and set: <br / >
+XFMC uses the Navigraph database, which provides SID/STAR and airport data. Without Navigraph, XFMC will fall back to X-Plane’s internal database (note: this does not include SID/STAR). To disable Navigraph support, open XFMC.ini and set: <br/>
 EXTNAVPRIORITY=0<br/>
 Package Contents<br/>
 •	Full documentation<br/>
