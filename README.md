@@ -37,7 +37,8 @@ Updating<br/>
 •	Launch the installer.<br/>
 •	The server release version (e.g. 3.26) and your local XFMC.ini version will be displayed.<br/>
 •	If they do not match, an Update button will appear.<br/>
-•	Click it to download the latest win.xpl and place it in /plugins/XFMC/64/.<br/>
+•	Click it to download the latest win.xpl and place it in /plugins/XFMC/64/.<br/><img width="200" height="100" alt="Screen Shot 08-21-25 at 01 35 PM" src="https://github.com/user-attachments/assets/1231d1cc-29a6-4449-bf56-eb1364ed4245" />
+
 Platform Support<br/>
 •	Supported: Windows, Android tablets<br/>
 •	Not supported: iOS, Linux<br/>
