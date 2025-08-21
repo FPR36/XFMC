@@ -10,7 +10,8 @@ The entire codebase has been rewritten and updated. Major changes include:<br/>
 •	Added Decision Inhibit functionality<br/>
 •	Completely redesigned VNAV (Vertical Navigation)<br/>
 •	Network support: connect an Android tablet to use XFMC as a remote CDU (Control Display Unit) and MAP<br/>
-•	  <img width="609" height="956" alt="Screen Shot 08-19-25 at 12 44 PM" src="https://github.com/user-attachments/assets/de9fcbc1-3e39-4aba-a14f-64caf6430a11" />
+•	  <img width="200" height="300" alt="Screen Shot 08-19-25 at 12 44 PM" src="https://github.com/user-attachments/assets/de9fcbc1-3e39-4aba-a14f-64caf6430a11" />
+<img width="200" height="300" alt="Screen Shot 08-19-25 at 12 43 PM" src="https://github.com/user-attachments/assets/e04dc5dd-fb34-4e1e-9599-42c84a8f2d6f" />
 
 Supported Aircraft<br/>
 XFMC is compatible with a wide range of aircraft, including:<br/>
