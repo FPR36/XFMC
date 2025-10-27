@@ -1,4 +1,4 @@
-Version 3.5 Released
+October 2025: Version 3.5 Released!
 
 XFMC v3.5 introduces a fully integrated, dedicated Autopilot (AP) module — eliminating the long-standing compatibility issues with the native X-Plane autopilot.
 XFMC now functions as a combined FMC + AP system, providing consistent and precise flight-path control across all supported aircraft.
