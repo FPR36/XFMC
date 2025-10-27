@@ -1,3 +1,32 @@
+Version 3.5 Released
+
+XFMC v3.5 introduces a fully integrated, dedicated Autopilot (AP) module — eliminating the long-standing compatibility issues with the native X-Plane autopilot.
+XFMC now functions as a combined FMC + AP system, providing consistent and precise flight-path control across all supported aircraft.
+
+✈️ Key Improvements
+
+Integrated XFMC Autopilot:
+The new internal AP handles LNAV, VNAV, ILS, and flare logic independently from X-Plane’s native systems, ensuring smooth and predictable behavior even on aircraft with custom logic (e.g. x737).
+
+Configurable PID Tuning:
+Each aircraft can now define its own PID control parameters in the configuration files, allowing fine-tuning of roll, pitch, yaw, and approach handling for specific flight models.
+
+Enhanced ILS and Flare Handling:
+Improved stability during final approach and touchdown, with logic refined for realistic flare altitude and pitch control.
+
+XFMC App v1.06:
+A new page has been added to the companion app, enabling real-time PID adjustments while in flight. Perfect for tuning responsiveness without restarting the sim.
+
+⚙️ Notes
+
+Existing configuration files will be automatically updated to include the new PID entries.
+
+The dedicated AP operates with a 20 ms internal update rate for precise control feedback.
+
+Backward-compatible with earlier XFMC flight plans and navigation data.
+
+
+
 XFMC for X-Plane 12 – A Relaunch<br/>
 Background<br/>
 Between 2011 and 2019, XFMC was available for X-Plane 9 and 10. Development was discontinued after the release of X-Plane 11. Recently, after purchasing X-Plane 12 and finding the default FMCs somewhat limited, I decided to revive XFMC and make it fully compatible with the latest version of the simulator.<br/>
