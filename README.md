@@ -49,3 +49,4 @@ Each aircraft .ini file must be placed in the same folder as the aircraft’s .a
 Final Notes<br/>
 This is a personal, non-commercial project and will remain freeware. If you encounter bugs, please report them only if they can be reproduced consistently.<br/>
 Happy flying!<br/>
+update 27/10/2025:  version 3.5 is released adding a dedicated ap into XFMC. This solves issues with the native xplane AP.  XFMC now is a FMC+AP.  Config files will be updated with PID settings to match the plane char's.  XFMC APP is now version 1.06 with a extra page for on the fly setting the PID values
