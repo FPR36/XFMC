@@ -1,4 +1,4 @@
-October 2025: Version 3.5 Released!
+October 2025: Version 3.3 Released!
 
 XFMC v3.5 introduces a fully integrated, dedicated Autopilot (AP) module — eliminating the long-standing compatibility issues with the native X-Plane autopilot.
 XFMC now functions as a combined FMC + AP system, providing consistent and precise flight-path control across all supported aircraft.
@@ -24,7 +24,36 @@ Existing configuration files will be automatically updated to include the new PI
 The dedicated AP operates with a 20 ms internal update rate for precise control feedback.
 
 Backward-compatible with earlier XFMC flight plans and navigation data.
+ XFMC Plugin – Version 3.3
+Fixed: Vector approach now correctly handles Left/Center/Right runway arrivals.
 
+Fixed: QNH mismatch issue where Flight Level on IVAO differed from Littlenavmap/X-Plane.
+
+Added: Dedicated autopilot with ILS approach support.
+
+Joystick can override steering.
+
+XFMC generates a new config file with AP settings automatically.
+
+PID parameters can be adjusted live via the Android AP interface (sliders).
+
+Heading, VNAV, and altitude overrides are available on the panel.
+
+To activate the dedicated AP, set dedicated AP = 1 in the config file.
+
+To enable ILS approach:
+
+Set the ILS frequency on the radio page.
+
+Use the APP button on the approach page.
+
+When on glideslope, APP [ACT] or APP [LOC] will appear.
+
+Flare altitude and pitch angle can be configured.
+
+Config files for various aircraft with dedicated AP will be provided later.
+
+🔄 Update to version 3.3 using the provided updater 
 
 
 XFMC for X-Plane 12 – A Relaunch<br/>
