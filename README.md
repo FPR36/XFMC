@@ -107,4 +107,107 @@ Each aircraft .ini file must be placed in the same folder as the aircraft’s .a
 Final Notes<br/>
 This is a personal, non-commercial project and will remain freeware. If you encounter bugs, please report them only if they can be reproduced consistently.<br/>
 Happy flying!<br/>
+✈️ Quick Setup Guide: XFMC & ATC/CTR (dedicated AP use)
+🛫 Flight Preparation
+📄 Load flight plan (SimBrief → XFMC import).
 
+🛤 Select departure runway/SID.
+
+📊 Enter cruise level in Performance page.
+
+🛬 (Optional) Select arrival STAR.
+
+➡️ If no ILS arrival:
+
+Go to Approach page → click VECTORS.
+
+XFMC builds vector approach with API, REF, THRSH points.
+
+⚙️ Pre-Takeoff Setup
+🎛 Set MCP altitude dial in aircraft.
+
+Or type FL in command line → click MCP.
+
+📝 On Takeoff page:
+
+Select flaps.
+
+Click V1, V2, REF.
+
+🚕 Taxi to runway hold → click AP button in XFMC.
+
+📡 If CONFIG bit 7 (128) set → transponder auto ON.
+
+🚀 Takeoff
+🛣 Line up on centerline → full throttle.
+
+🔔 Wait for “PULL UP” prompt.
+
+🎮 Pull joystick gently → hold until INIT-CLIMB.
+
+✋ Release gradually → maintain positive climb.
+
+🛫 XFMC takes over climb → respects restrictions → levels at FL.
+
+☕ Relax, time for coffee!
+
+📡 ATC Instructions (Enroute)
+🧭 Heading change:
+
+Disable LNAV → set heading bug.
+
+Hack: type HEADING/XXX → click FIX.
+
+📍 Waypoint change:
+
+Type waypoint in command line → click first line of LEGS page.
+
+If shortcut: deletes points between duplicate waypoints.
+
+If far ahead: remove intermediate points to avoid illogical routing.
+
+✈️ Cruise
+🛑 Plane levels at programmed FL.
+
+⬆️ To climb: enter new FL → click MCP.
+
+⬇️ To descend (CTR instruction): same procedure.
+
+🛬 Arrival & Descent
+📐 Check VNAV Page 3 → TOD.
+
+🎛 Before TOD: set MCP altitude in aircraft (not XFMC MCP).
+
+⬇️ Early descent (ATC):
+
+Enter new FL → click MCP.
+
+If within 60 nm of TOD → VNAV Page 3 → DESCEND NOW.
+
+🧭 Heading/waypoint changes: same as cruise.
+
+📡 ILS Arrival
+📻 Select ILS frequency on Radio Page.
+
+🛬 On Approach Page → click APP → becomes APP [ACT].
+
+📏 Ensure altitude 2000–3000 ft AGL before intercept.
+
+🔒 When APP [LOC] shows → plane on glideslope.
+
+Set flaps.
+
+⚡ Adjust speed via VNAV Page 3, ECON speed, or manual throttle.
+
+🛑 Cut engines ~200 ft AGL → flare at 20–30 ft AGL.
+
+🛞 Apply brakes/RTO after touchdown.
+
+🛬 Non-ILS Arrival
+➡️ Use vector approach or program arrival plan.
+
+⚡ Adjust approach speed in VNAV Page 3 (e.g., ECON 250 → ~200).
+
+🧭 Vector approach aligns runway, but manual heading/speed may be needed.
+
+✋ Flare pitch-up must be done manually (not automatic).
