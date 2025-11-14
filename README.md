@@ -1,3 +1,27 @@
+✈️ XFMC Update – November
+
+Version 3.4 (Desktop) Version 1.07 (Android App)
+📱 XFMC App
+
+    🔄 Sliders are now correctly restored when returning from sleep mode (Activity_Resume).
+
+🔌 XFMC Plugin
+
+    🐞 Bugfix: hidden issue fixed in climb restrictions below a level (B) and at waypoints far ahead.
+
+    📈 Vertical Speed profile adjusted to better handle long-range v/s situations.
+
+    🎛️ Dedicated Autopilot (AP) now includes Altitude Hold.
+
+        MCP key refined to manage climb/descend during cruise phase.
+
+    🛠️ Minor issues resolved.
+
+🛫 Tested Aircraft
+
+✅ Gulf550 (Xhangar) ✅ Phenom 300 (Aerobask) ✅ Standard 737 ✅ Zibo 737 ✅ x737 (Benedickt Stattmann)
+
+📦 Configurations included in the attached ZIP
 October 2025: Version 3.3 Released!
 
 XFMC v3.3 introduces a fully integrated, dedicated Autopilot (AP) module — eliminating the long-standing compatibility issues with the native X-Plane autopilot.
