@@ -1,3 +1,91 @@
+✈️ December St. Nicholas Update – XFMC 3.5
+
+We’re excited to share the latest improvements in XFMC 3.5. This update focuses on refining approach logic, smoother ILS handling, and better integration with MCP and DH inputs. Below are the highlights:
+🔧 Update Highlights
+
+    Go-Around Logic
+
+        Go-around now also resets the APP flag.
+
+        Base leg calculation depends on MTO weight – larger aircraft require a wider turn radius.
+
+    Cruise & MCP
+
+        Descent via MCP in cruise mode now correctly holds altitude.
+
+    ILS Approach Enhancements
+
+        Extended to Intercept (ICEPT), Localizer (LLZ), and Glideslope (GS).
+
+        APP button now displays: [ACT], [ICEPT], [LLZ], or [GS].
+
+        Intercept requires a reasonable approach angle. Approaching at 90° risks missing GS capture.
+
+    ILS Modules
+
+        GS module: smoother, soft touchdown.
+
+        LLZ module: softer capture behavior.
+
+    VNAV Descent Page
+
+        Speed/transition input fixed. Now supports:
+
+            speed/xxx
+
+            transition altitude/yyyyy
+
+            or both xxx/yyyyy.
+
+    Decision Height (DH)
+
+        Previously only tied to X-Plane systems.
+
+        Now also used by XFMC to enter the flare phase.
+
+        Accepts DH inputs between 150–300 ft.
+
+📊 Infogram – Descent & Approach Workflow
+Descent
+
+    Start Descent: set MCP to 0.
+
+    Early Descent (<60NM): click DESCENT NOW.
+
+    ATC descent to FLxxx: type xxx in command line → click MCP.
+
+    ATC heading xxx:
+
+        First disable LNAV.
+
+        Then type HEADING/xxx in command line → click FIX.
+
+Approach
+
+    Select runway in use.
+
+    Set ILS frequency by clicking on the ILS freq already shown by XFMC in the RADIO PAGE.
+
+    Ensure altitude is 2000–3000 AGL and aligned to intercept.
+
+    Click APP button in Approach screen.
+
+APP Button States
+
+    ACT → not in capture or intercept.
+
+    ICEPT → aircraft not aligned to cone.
+
+    LLZ → captured on horizontal beam.
+
+    GS → glideslope captured.
+
+Final Actions
+
+    Deploy flaps and gear.
+
+    As soon as the plane touches down, apply reverse thrust and brakes → aircraft transitions to rollout.
+==================================================================================
 ✈️ XFMC Update – November
 
 Version 3.4 (Desktop) Version 1.07 (Android App)
@@ -79,7 +167,7 @@ Config files for various aircraft with dedicated AP will be provided later.
 
 🔄 Update to version 3.3 using the provided updater 
 
-
+===================================================================================================
 XFMC for X-Plane 12 – A Relaunch<br/>
 Background<br/>
 Between 2011 and 2019, XFMC was available for X-Plane 9 and 10. Development was discontinued after the release of X-Plane 11. Recently, after purchasing X-Plane 12 and finding the default FMCs somewhat limited, I decided to revive XFMC and make it fully compatible with the latest version of the simulator.<br/>
