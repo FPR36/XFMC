@@ -9,7 +9,7 @@ December 8, 2025 – Release 3.51
         The user should verify whether the indicated waypoint is logical.
 
         DISCON entries can appear in SID, STAR, flight plan, or transition procedures.
-=======================================================================================================================================
+=======================================================================================================================================<BR>
 ✈️ December St. Nicholas Update – XFMC 3.5
 
 We’re excited to share the latest improvements in XFMC 3.5. This update focuses on refining approach logic, smoother ILS handling, and better integration with MCP and DH inputs. Below are the highlights:
