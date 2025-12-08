@@ -1,3 +1,15 @@
+December 8, 2025 – Release 3.51
+
+    Fixed the issue with incorrect altitudes displayed in the leg list. Altitudes are now shown correctly again.
+
+    Added a DISCON function to the leg list:
+
+        Any turn to a waypoint that does not lie ahead within a certain angle will be marked with [DISCON].
+
+        The user should verify whether the indicated waypoint is logical.
+
+        DISCON entries can appear in SID, STAR, flight plan, or transition procedures.
+=======================================================================================================================================
 ✈️ December St. Nicholas Update – XFMC 3.5
 
 We’re excited to share the latest improvements in XFMC 3.5. This update focuses on refining approach logic, smoother ILS handling, and better integration with MCP and DH inputs. Below are the highlights:
