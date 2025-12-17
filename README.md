@@ -1,3 +1,17 @@
+December 17, 2025 
+XFMC Update 3.53 – Release Notes
+
+Changes and Fixes:
+
+    Resolved an issue when selecting a new SID/STAR: old SID/STAR waypoints are now properly cleared.
+
+    Fixed compatibility issue with the x737 by Benedikt Stratmann.
+
+    A/THR (Auto Thrust) now functions correctly.
+
+    Note: The x737 operates only with the dedicated XFMC autopilot.
+=============================================================================
+
 December 8, 2025 – Release 3.51
 
     Fixed the issue with incorrect altitudes displayed in the leg list. Altitudes are now shown correctly again.
