@@ -71,6 +71,9 @@ Download time depends on your network speed.
 The FMC screen will show the download status.
 Wait until you see “DB Saved” before closing the app.  
 Do not interrupt the download process.
+<img width="584" height="819" alt="Schermafbeelding 2025-12-26 165807" src="https://github.com/user-attachments/assets/c36ca5c6-5a45-4e00-9869-b2624b90ba69" />
+<img width="589" height="697" alt="Schermafbeelding 2025-12-26 165936" src="https://github.com/user-attachments/assets/69694075-cf6b-4165-856a-b21c7859454a" />
+
 
 
 
