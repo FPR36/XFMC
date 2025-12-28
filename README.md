@@ -1,3 +1,82 @@
+New Year’s Update – Version 3.54
+
+This update resolves several routing and navigation issues and introduces improvements to glideslope handling, navaid selection, and visual rendering within the XFMC CDU.
+Route & Altitude Restriction Fixes
+
+A number of bugs were identified in routes containing manually inserted fixes with altitude constraints. All have now been corrected:
+
+    Simple routes such as
+    ESSB .. ARTIB[7000] (manual fix) .. EHAM  
+    previously produced an incorrect TOC. Fixed.
+
+    Complex routes such as
+    ESSB PETE1Z PETEV N872 ELPAX Z703 UMIXA KULUD EKDIV AMRAK EEL ARTIP[7000] (manual fix) .. EHAM  
+    displayed a premature descent indication, even though the aircraft continued level flight. Fixed.
+
+    Routes like
+    ESSB PETEV[10000] (manual fix) N872 ELPAX Z703 UMIXA KULUD EKDIV AMRAK EEL EHAM  
+    could generate an incorrect TOD. Fixed.
+
+All three issues were caused by manual fixes with altitude restrictions inserted before or after the main route.
+Glideslope Logic Improvements
+
+The glideslope algorithm has been refined:
+
+    The system now uses both the GS needle and a geometric reference calculation.
+
+    GS tracking accuracy is improved to within 30 feet.
+
+    At 200 ft AGL, the geometric calculation is terminated and a fixed 500 ft/min descent rate is applied.
+
+Navaid Selection Enhancements
+
+Routes such as
+EGNX … LFBE  
+with a manual fix like NDB MH or waypoint CF27 inserted immediately after EGNX could incorrectly select a distant navaid when multiple candidates existed in the search area.
+
+    A list of all matching navaids is now generated.
+
+    The closest navaid is automatically selected.
+
+    This resolves issues caused by dense navaid environments. Fixed.
+
+UI & Functional Updates
+
+    Selecting an ILS in the Radio Page now displays [SEL].
+
+    Activating a Vector Approach now shows [ACT].
+    Reselecting it removes the API points.
+
+    XFMC CDU updated to version 1.08.
+
+Airport & Navigation Rendering
+
+    Runways and ILS cones are now drawn for both departure and arrival airports.
+
+    Navigation points now use proper symbols:
+
+        Triangles for waypoints
+
+        NDB icons for NDBs
+
+        VOR icons for VORs
+
+    Each navaid is labeled (e.g., ARTIB, EEL).
+
+Important Note
+
+The app must download the Apt data file (~300 MB).
+Download time depends on your network speed.
+
+The FMC screen will show the download status.
+Wait until you see “DB Saved” before closing the app.  
+Do not interrupt the download process.
+
+
+
+
+
+
 December 17, 2025 
 XFMC Update 3.53 – Release Notes
 
