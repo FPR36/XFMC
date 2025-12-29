@@ -74,7 +74,7 @@ Do not interrupt the download process.
 <img width="584" height="819" alt="Schermafbeelding 2025-12-26 165807" src="https://github.com/user-attachments/assets/c36ca5c6-5a45-4e00-9869-b2624b90ba69" />
 <img width="589" height="697" alt="Schermafbeelding 2025-12-26 165936" src="https://github.com/user-attachments/assets/69694075-cf6b-4165-856a-b21c7859454a" />
 
-
+video of arrival LFBE with Zibo 4k and xfmc in dedicated AP mode  https://www.youtube.com/watch?v=Gng2A48ITY0
 
 
 
