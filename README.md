@@ -1,4 +1,44 @@
-New Year’s Update – Version 3.54
+XFMC Update – January 2026
+Version 3.55
+
+The January 2026 update brings a series of refinements, bug fixes, and performance improvements aimed at delivering a smoother and more reliable XFMC experience. This release focuses heavily on navigation accuracy, approach stability, and overall system responsiveness.
+Changes & Improvements
+
+    Zibo DH logic corrected  
+    The Decision Height handling for Zibo aircraft has been fixed for more accurate approach behavior.
+
+    XFMC CDU timer updated to 2 seconds  
+    Improves responsiveness while reducing unnecessary refresh load.
+
+    Maximum flight level increased to FL450  
+    Expanded altitude capability for high‑performance operations.
+
+    Additional altitude tuning in the LEGS list  
+    Further refinement of altitude handling for more consistent vertical planning.
+
+    Fixed runway LLZ code issue around heading 360  
+    Corrected a bug affecting localizer code detection on runways near 360°.
+
+    Glideslope behavior improved  
+    A margin has been added between the geometric glideslope and the ILS cone center to prevent premature descent during arrivals.
+
+    GOA CCW/CD selection enhanced  
+    When selected, GOA CCW/CD now displays [SEL]. Selecting again removes the GOA points as expected.
+
+    ILS variable reset fix  
+    Resolved an issue where switching to another runway during approach could leave the ILS variable in an incorrect state.
+
+    Improved flap speed calculations  
+    More accurate flap speed logic for both takeoff and approach phases.
+
+XFMC CDU Update – Version 1.09
+
+    Tracklist storage optimized  
+    Tracklist duration has been adjusted to 20 seconds to prevent excessive growth and reduce memory usage
+    
+    ======================================================================================================================================================================
+    
+    New Year’s Update – Version 3.54
 
 This update resolves several routing and navigation issues and introduces improvements to glideslope handling, navaid selection, and visual rendering within the XFMC CDU.
 Route & Altitude Restriction Fixes
