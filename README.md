@@ -35,7 +35,7 @@ XFMC CDU Update – Version 1.09
 
     Tracklist storage optimized  
     Tracklist duration has been adjusted to 20 seconds to prevent excessive growth and reduce memory usage
-    
+    Uploaded configs for Xcraft E175 and E195!
     ======================================================================================================================================================================
     
     New Year’s Update – Version 3.54
