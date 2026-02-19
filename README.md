@@ -4,6 +4,57 @@ Added
 
     Improved waypoint interception logic by monitoring distance and comparing previous results.
 
+    Reinserted TOD/TOC waypoints into the leg list. This feature existed in early XFMC versions, was removed later, and is now added again to give the operator more information about the ongoing flight.
+
+    When a speed constraint is set in the descent phase, it will now be copied into the following waypoints.
+
+    Added a configuration line for manual joystick blend from 50–100%. A value of 100% equals maximum sensitivity.
+
+Info:  
+In dedicated AP mode, X‑Plane joystick settings should be linear with no deadzone programmed. XFMC inserts the AP into the joystick channel. Manual joystick override has its own programmed deadzone and exponential response on each channel.
+
+Fixed
+
+    Corrected a bug in the fuel calculation. For small aircraft, reserve fuel is multiplied by 1000 (as in Boeing systems).
+
+    Fixed an issue where a DISCON appeared at the arrival airport.
+
+    Fixed issues with flight plans containing fixed waypoints with seconds (long numbers such as 4.414224434).
+
+    The last entry in the leg list (arrival airport) is no longer skipped, preventing undesired heading commands in the final miles before arrival in non‑ILS mode.
+
+    Fixed another issue in the leg list related to altitude and descent.
+
+    Filtered a noisy dataref that caused pitch “kickups” in the XFMC pitch PID controller.
+
+    Fixed a bug that reset reserve fuel to 0 when InitClimb was active.
+
+Corrected
+
+    Preflight must be completed before the AP can be switched on. Required items: V1, V2, Vref, fuel, runway, reserve fuel.
+
+    For small aircraft, only 0.1 can currently be used as reserve fuel input (calculated as 100 lbs), or 0.0 if no reserve is desired.
+
+    All preflight settings must be completed before the AP can be activated. “Preflight completed” will be shown on the takeoff screen when all conditions are met.
+
+XFMC‑CDU
+
+    Adjustments made for proper app closing and termination of the UDP channel.
+
+    Fixes to avoid crashes caused by missing airport information from the simulator or corrupted data streams.
+
+    Fixed a bug with a location pointer referenced in other functions, which caused strange track lines after waypoint manipulations.
+
+Status
+XFMC is close to its final state. It has come a long way from the early 2.7 version for X‑Plane 10 to the upgraded 3.56 for X‑Plane 12, with more than 1000 hours of test flights completed.
+
+----------------------------------------------------
+XFMC Release 3.56 – February 2016
+
+Added
+
+    Improved waypoint interception logic by monitoring distance and comparing previous results.
+
     Reinserted TOD/TOC waypoints into the leg list. This feature existed in early XFMC versions, was removed later, and is now added again to give the operator more information about the ongoing flight.<img width="502" height="783" alt="afbeelding" src="https://github.com/user-attachments/assets/e51bd8c9-c3a7-4392-8f7e-758bf3849161" />
 
 
