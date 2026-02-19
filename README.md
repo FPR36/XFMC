@@ -52,7 +52,36 @@ XFMC‑CDU
 Status
 XFMC is close to its final state. It has come a long way from the early 2.7 version for X‑Plane 10 to the upgraded 3.56 for X‑Plane 12, with more than 1000 hours of test flights completed.
 
-Aircraftfiles XFMC+AP is updated. Levelup737/Zibo/standard 738/SF50/Xcraft E175 E195/ XHanger Gulf550,Aerobask DA42/DA62/Phenom
+ 
+  Updated  Aircraftfiles XFMC + AP
+
+Airliners
+
+    LevelUp 737
+
+    Zibo 737
+
+    Standaard 737‑800
+
+    X‑Crafts E175
+
+    X‑Crafts E195
+
+Business jets
+
+    X‑Hanger Gulfstream 550
+
+    Aerobask Phenom 300
+
+General aviation / Light aircraft
+
+    Aerobask DA42
+
+    Aerobask DA62
+
+Other
+
+    Cirrus SF50 Vision Jet
 ======================================================================================================================================================================================
 
 
