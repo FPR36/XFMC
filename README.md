@@ -1,4 +1,55 @@
+🚀 XFMC 3.6 – What’s New?
+🛫 Improved fallback to X‑Plane airport data
 
+When a departure or arrival airport was missing in Navigraph, XFMC didn’t always fall back correctly to the internal X‑Plane APT data.
+This behavior has now been fixed — XFMC automatically selects the correct data source.
+📡 Enhanced glideslope calculation
+
+The GS needle now remains properly centered.
+The underlying calculation has been reworked for a more stable and accurate approach.
+🌬️ Wind compensation added to LOC
+
+The localizer logic now compensates for crosswind.
+Even with a 39‑knot sidewind, the aircraft stays aligned with the centerline.
+🧭 More flexible LAT/LON waypoint input
+
+You can now enter coordinates in multiple digital formats, including:
+
+    0101N3499E
+
+    01.01N34.99E  
+    Both formats are now valid.
+
+Waypoints entered without a decimal point are automatically interpreted as short‑format (xxyy).
+📍 Improved “along track” waypoint function
+
+The format XXXXXyyy/zz is now fully supported:
+
+    XXXXX = waypoint
+
+    yyy = course
+
+    zz = distance in NM (max 40 NM)
+
+Example:
+SPL/180/25 creates a waypoint 25 NM south of VOR SPL.
+Enter it in the console and click in the leg list where you want the waypoint inserted.
+🛬 Fixed: KDFW 18R/18L arrival issue
+
+The problems affecting the 18R/18L arrival procedures at KDFW have been resolved.
+🖥️ XFMC‑CDU 1.14 – Improvements
+🌍 Meridian crossing trackline fix
+
+Tracklines crossing the meridian were sometimes displayed incorrectly.
+This has now been corrected for accurate CDU rendering.
+🔌 Crash fix for empty port number
+
+If the port number field was left empty, the CDU could crash.
+The port number is now validated before being stored.
+🎉 A solid, stable release
+
+XFMC 3.6 and XFMC‑CDU 1.14 deliver a mature, stable, and feature‑rich experience.
+With these improvements, flight planning, navigation, and overall usability feel more precise and dependable than ever.===============================================================================
 XFMC Release 3.56 – February 2026
 
 Added
