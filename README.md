@@ -1,3 +1,66 @@
+XFMC 3.70 Release
+
+XFMC 3.70 is now available.
+This update does not introduce new features, and no bugs have been reported, but it includes a major internal restructuring of how navigation data is handled.
+Background
+
+Since its first release in 2009, XFMC has relied on multiple mixed data sources for navigation, airports, and ILS information:
+
+    X‑Plane Apt.dat
+
+    Navigraph airport and ILS data
+
+    Navigraph SID/STAR, airways, and fixes, with fallback to X‑Plane fixes
+
+Over time, discrepancies between these sources caused inconsistencies in airport detection, runway identification, and ILS alignment.
+Examples of Data Mismatches
+
+1. Small airstrips without ICAO codes  
+X‑Plane can find local airstrips such as LF3624 – Levroux Grange Dieux, but XFMC could not, because it relied on the internal X‑Plane API.
+In Apt.dat, these strips use an internal code like XLF006 on line 1, while the local identifier (e.g., LF3624) appears on line 1302.
+XFMC could only find them if the internal code (e.g., XLF006Zmer) was entered manually.
+Scanning Apt.dat directly solves this, but it is slow.
+
+2. Airports with mismatched internal codes  
+Example: FQCB  
+XFMC and X‑Plane can both find the airport by ICAO, but XFMC could not detect its runways because Apt.dat uses an internal code like XFQ0002.
+
+3. Navigraph vs. X‑Plane runway naming differences  
+Some airports have runway sets like 21 / 21R / 21L in X‑Plane, but Navigraph may label them as 21L / 21C / 21R.
+Selecting runway 21L in XFMC could therefore lead to the wrong physical runway heading.
+The Solution: A Unified Internal SQL Database
+
+XFMC now uses its own internal SQLite database, generated once from:
+
+    X‑Plane Apt.dat
+
+    X‑Plane earth_nav.dat
+
+XFMC now uses Navigraph only for:
+
+    Airways
+
+    SID/STAR
+
+    Fixes (with fallback to X‑Plane fixes)
+
+This eliminates the inconsistencies between mixed data sources.
+Database Generation
+
+    Building XFMC.sql takes about 10 minutes, depending on CPU speed.
+
+    The generated database is already included on GitHub.
+
+    Custom scenery is scanned as well, and missing airports are automatically added to the SQL database.
+
+XFMC‑CDU 1.17
+
+    The prebuilt XFMC.sql is included in the release.
+
+    For custom builds, the SQL file can be uploaded from an SD card or folder into the XFMC‑CDU internal storage.
+
+
+-------------------------------------------------------------------
 🚀 XFMC 3.6 – What’s New?
 🛫 Improved fallback to X‑Plane airport data
 
