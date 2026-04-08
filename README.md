@@ -18,7 +18,7 @@ Examples of Data Mismatches
 1. Small airstrips without ICAO codes  
 X‑Plane can find local airstrips such as LF3624 – Levroux Grange Dieux, but XFMC could not, because it relied on the internal X‑Plane API.
 In Apt.dat, these strips use an internal code like XLF006 on line 1, while the local identifier (e.g., LF3624) appears on line 1302.
-XFMC could only find them if the internal code (e.g., XLF006Zmer) was entered manually.
+XFMC could only find them if the internal code (e.g., XLF006Z) was entered manually.
 Scanning Apt.dat directly solves this, but it is slow.
 
 2. Airports with mismatched internal codes  
