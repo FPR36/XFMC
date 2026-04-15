@@ -1,3 +1,33 @@
+XFMC‑CDU 1.18 — Release Announcement
+
+We’re pleased to announce the release of XFMC‑CDU 1.18, introducing full Airspace visualization support and a newly constructed SQL database built directly from X‑Plane 12 / earthnavdata / airspaces.
+What’s New in 1.18
+
+    Added Airspaces  
+    XFMC‑CDU now displays surrounding airspaces dynamically around the aircraft position.
+    The system uses a vertical cut (V‑cut) approach, meaning only relevant restricted airspaces are shown based on your current altitude.
+
+        Example: A TMA defined as 500–3000 ft MSL will only appear when your aircraft is flying between 500 and 3000 ft MSL.
+
+        As your altitude changes, additional airspaces will be loaded automatically during flight.
+
+    New SQL Airspace Database  
+    A completely new SQL database has been generated using X‑Plane 12’s official airspace data.
+    This database is included in the app build and works with XFMC 3.70 and higher.
+
+    Automatic Refresh on Resume  
+    When the tablet resumes from sleep, all previously drawn airspaces are cleared and repainted to ensure accuracy.
+
+Important Compatibility Note
+
+The old SQL format (without airspace tables) is no longer supported.
+XFMC‑CDU 1.18 requires the new database structure included with this release.
+Looking Ahead
+
+XFMC 3.71—which includes the ability to generate the new SQL database—is planned for release as soon as it reaches the required stability level.
+
+<img width="744" height="869" alt="afbeelding" src="https://github.com/user-attachments/assets/9c1b5a35-ca68-44d1-96a2-6dce937f4956" />
+====================================================================================
 XFMC 3.70 Release
 
 XFMC 3.70 is now available.
