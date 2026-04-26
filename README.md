@@ -1,3 +1,8 @@
+XFMC-CDU 1.19
+Added INSIDE airspace logic. 
+Zones will be filled with color (low alpha) when the plane enters a airspace zone.
+Every minute all drawn polygons will be repainted, removing older zones which are outside range
+
 XFMC‑CDU 1.18 — Release Announcement
 
 We’re pleased to announce the release of XFMC‑CDU 1.18, introducing full Airspace visualization support and a newly constructed SQL database built directly from X‑Plane 12 / earthnavdata / airspaces.
