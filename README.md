@@ -1,3 +1,7 @@
+XFMC-CDU 1.20 with updated sql database
+Added XFMC.rar . Unrar this file for the latest sql needed for XFMC plugin. Put XFMC.sql in the ROOT of XFMC folder
+Added iata codes needed for metar data ACARS coming XFMC 3.7 release.
+Fixed the issue with apt.dat inconstency for some airports having Iata,Icao AND local codes. Database now selects Icao prior Local codes
 XFMC-CDU 1.19
 Added INSIDE airspace logic. 
 Zones will be filled with color (low alpha) when the plane enters a airspace zone.
