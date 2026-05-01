@@ -27,7 +27,8 @@ New Feature: Airspaces
 <img width="288" height="227" alt="afbeelding" src="https://github.com/user-attachments/assets/d817728b-285c-447b-97f3-d85b403e89f5" />
 
     Airspaces the aircraft is currently inside are highlighted with an INSIDE label.
-<img width="296" height="235" alt="afbeelding" src="https://github.com/user-attachments/assets/0f73ff92-f095-474f-89ac-0d9e9e9fdfff" />
+<img width="273" height="198" alt="afbeelding" src="https://github.com/user-attachments/assets/b6d4825b-6b68-4b2d-a090-bb6e3c6440e4" />
+
 
 ACARS Page Enhancements
 
