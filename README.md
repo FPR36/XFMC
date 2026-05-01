@@ -81,6 +81,7 @@ Database Update
     A new database will be generated automatically (approx. 15 minutes).
 
 XFMC‑CDU 1.20
+<img width="437" height="637" alt="afbeelding" src="https://github.com/user-attachments/assets/94da3a87-2dd7-40cf-9345-fa23b045c4d2" />
 
     Airspaces are now displayed identically to the XFMC plugin.
     Added INSIDE airspace logic. 
