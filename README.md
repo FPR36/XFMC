@@ -91,8 +91,7 @@ XFMC‑CDU 1.20
     Every minute all drawn polygons will be repainted, removing older zones which are outside range
     Fixed a crash related to empty tiles, reported via Firebase.
     Likely caused by a race condition between internet loading and tile generation.
-    Zones will be filled with color (low alpha) when the plane enters a airspace zone.
-    Every minute all drawn polygons will be repainted, removing older zones which are outside range
+
 =>Updated config files. Added Aerobask shark UltraLight plane. Read the note before using this plane!
 
 
