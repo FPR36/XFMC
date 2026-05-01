@@ -33,6 +33,7 @@ New Feature: Airspaces
 ACARS Page Enhancements
 
     The ACARS page now displays:
+<img width="668" height="577" alt="afbeelding" src="https://github.com/user-attachments/assets/965567e9-c439-487b-8dcc-a053fd05ec1a" />
 
         METAR for departure and arrival airports.
 
