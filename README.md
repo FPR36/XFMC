@@ -1,37 +1,97 @@
-XFMC-CDU 1.20 with updated sql database<br>
-Added XFMC.rar . Unrar this file for the latest sql needed for XFMC plugin. Put XFMC.sql in the ROOT of XFMC folder<br>
-Added iata codes needed for metar data ACARS coming XFMC 3.7 release.<br>
-Fixed the issue with apt.dat inconsistency for some airports having Iata,Icao AND local codes. Database now selects Icao prior Local codes<br>
-XFMC-CDU 1.19
-Added INSIDE airspace logic. 
-Zones will be filled with color (low alpha) when the plane enters a airspace zone.
-Every minute all drawn polygons will be repainted, removing older zones which are outside range
+XFMC 3.72 – May 1 Update
 
-XFMC‑CDU 1.18 — Release Announcement
+The May 1 update for XFMC 3.72 is now available, bringing a substantial set of fixes, improvements, and new features. Below is the full changelog.
+Fixes & Improvements
 
-We’re pleased to announce the release of XFMC‑CDU 1.18, introducing full Airspace visualization support and a newly constructed SQL database built directly from X‑Plane 12 / earthnavdata / airspaces.
-What’s New in 1.18
+    Fixed double rudder mixing in the autopilot.
 
-    Added Airspaces  
-    XFMC‑CDU now displays surrounding airspaces dynamically around the aircraft position.
-    The system uses a vertical cut (V‑cut) approach, meaning only relevant restricted airspaces are shown based on your current altitude.
+    Various internal arrays now reset correctly when XFMC is reset.
 
-        Example: A TMA defined as 500–3000 ft MSL will only appear when your aircraft is flying between 500 and 3000 ft MSL.
+    Waypoint switching now works properly (previously fixed at 2 NM).
 
-        As your altitude changes, additional airspaces will be loaded automatically during flight.
+    XFMC now features a multicolor display.
+    Note: personal color settings in XFMC.ini are no longer supported.
 
-    New SQL Airspace Database  
-    A completely new SQL database has been generated using X‑Plane 12’s official airspace data.
-    This database is included in the app build and works with XFMC 3.70 and higher.
+    In the leg list, the leg to steer is now highlighted in blue.
 
-    Automatic Refresh on Resume  
-    When the tablet resumes from sleep, all previously drawn airspaces are cleared and repainted to ensure accuracy.
+New Feature: Airspaces
 
-Important Compatibility Note
+    Airspace awareness has been added using the V‑cut method.
+<img width="293" height="206" alt="afbeelding" src="https://github.com/user-attachments/assets/3c716a6c-8520-46a7-9e05-c4f4b00a3c3b" />
 
-The old SQL format (without airspace tables) is no longer supported.
-XFMC‑CDU 1.18 requires the new database structure included with this release.
-Looking Ahead
+    Press the FIX key without entering a command to display surrounding airspaces.
+
+    XFMC automatically selects airspaces relevant to the aircraft’s current altitude.
+
+    Safe airspaces are shown as green lines.
+<img width="288" height="227" alt="afbeelding" src="https://github.com/user-attachments/assets/d817728b-285c-447b-97f3-d85b403e89f5" />
+
+    Airspaces the aircraft is currently inside are highlighted with an INSIDE label.
+<img width="296" height="235" alt="afbeelding" src="https://github.com/user-attachments/assets/0f73ff92-f095-474f-89ac-0d9e9e9fdfff" />
+
+ACARS Page Enhancements
+
+    The ACARS page now displays:
+
+        METAR for departure and arrival airports.
+
+        Arrival airspaces relevant to the flight.
+
+    METAR data is retrieved from NOAA.
+
+    If no METAR is available for the departure or arrival airport:
+
+        XFMC searches the database for an airport with the same IATA code within 100 km.
+
+        If none is found, no METAR is shown.
+
+    Displayed METAR includes:
+    ICAO code used + wind + temperature/humidity + QNH
+
+Autopilot Logic Update
+
+The built‑in XFMC autopilot has been refined for more realistic behavior:
+
+    Pressing the AP button on the XFMC (light ON) now arms the autopilot, but does not engage it yet.
+
+    The autopilot engages automatically once the aircraft climbs above the INITCLIMB altitude.
+
+    Turning the AP button off fully disables the autopilot and returns control to manual.
+
+    The autopilot remains active until the end of the ROLLOUT phase.
+
+    Once the aircraft comes to a complete stop, the AP disengages automatically (light OFF).
+
+    At any moment, the pilot can override the autopilot by switching AP to OFF.
+
+    Takeoff autopilot activation now occurs in two steps:
+
+        Pilot arms AP (light ON).
+
+        AP engages automatically once above INITCLIMB altitude.
+
+Database Update
+
+    A new SQL database is included.
+    Unpack the .rar into the root XFMC folder.
+    =>The old SQL format (without airspace tables) is no longer supported.
+    For a personal build:
+    delete the SQL file from the root and start X‑Plane.
+    A new database will be generated automatically (approx. 15 minutes).
+
+XFMC‑CDU 1.20
+
+    Airspaces are now displayed identically to the XFMC plugin.
+    Added INSIDE airspace logic. 
+    Zones will be filled with color (low alpha) when the plane enters a airspace zone.
+    Every minute all drawn polygons will be repainted, removing older zones which are outside range
+    Fixed a crash related to empty tiles, reported via Firebase.
+    Likely caused by a race condition between internet loading and tile generation.
+    Zones will be filled with color (low alpha) when the plane enters a airspace zone.
+    Every minute all drawn polygons will be repainted, removing older zones which are outside range
+=>Updated config files. Added Aerobask shark UltraLight plane. Read the note before using this plane!
+
+
 
 XFMC 3.71—which includes the ability to generate the new SQL database—is planned for release as soon as it reaches the required stability level.
 
