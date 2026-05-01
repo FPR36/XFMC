@@ -13,6 +13,7 @@ Fixes & Improvements
     Note: personal color settings in XFMC.ini are no longer supported.
 
     In the leg list, the leg to steer is now highlighted in blue.
+<img width="306" height="251" alt="afbeelding" src="https://github.com/user-attachments/assets/f78c4cea-039e-47fa-ace2-d9d2bd56a64b" />
 
 New Feature: Airspaces
 
