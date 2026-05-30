@@ -1,4 +1,7 @@
 XFMC 3.72 – May 1 Update
+Note: >>>>>>>when downloading the complete XFMC branch, github will make a dir XFMC-main.  (or something like that).  Rename this dir to XFMC.  Otherwise xplane will crash during init.  <<<. 
+Second note: a new SQL file is provided as 7zip, included in the branch. Unzip this file and install this in the root of the XFMC dir.  Previous XFMC-sql  wasnt accepted due size limit. THis 7zip is less that 10 meg and accepted
+
 
 The May 1 update for XFMC 3.72 is now available, bringing a substantial set of fixes, improvements, and new features. Below is the full changelog.
 Fixes & Improvements
