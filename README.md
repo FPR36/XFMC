@@ -1,8 +1,107 @@
-XFMC 3.72 – May 1 Update
-Note: >>>>>>>when downloading the complete XFMC branch, github will make a dir XFMC-main.  (or something like that).  Rename this dir to XFMC.  Otherwise xplane will crash during init.  <<<. 
-Second note: a new SQL file is provided as 7zip, included in the branch. Unzip this file and install this in the root of the XFMC dir.  Previous XFMC-sql  wasnt accepted due size limit. THis 7zip is less that 10 meg and accepted
+XFMC Update 3.73 Beta – Release Notes
+No bugs were reported in the final 3.72 release, so it’s time for a new beta.
+And this one brings a lot of changes.
 
+✔ New: Run Without Navigraph Data
+XFMC was always tightly wrapped around Navigraph data.
+But starting with 3.73, you can now load flightplans without Navigraph.
 
+Set the following in XFMC.ini:
+
+Code
+EXTNAV=0
+With this enabled, XFMC will load the flightplan and resolve airways and waypoints using X‑Plane 12’s internal navigation database.
+
+How to use it
+Create a flightplan in SimBrief.
+
+Make sure the SimBrief Downloader/exporter is set to XFMC format.
+
+Load the plan in XFMC (e.g., EDDMLFPG).
+
+XFMC will decode and load the entire route automatically.
+
+Note:  
+Without Navigraph, SID/STAR procedures are not available.
+However, you can still insert the required waypoints manually using charts or tools like LittleNavMap.
+
+✔ XFMC Internal Database (SQL)
+XFMC uses its own internal SQL‑based navigation database.
+In the download package, this is included as:
+
+XFMCsql.rar (split into 2 parts)
+
+Installation
+Download both parts and extract them into the root of the XFMC folder.
+
+If extraction fails
+If the SQL files are missing or cannot be extracted, XFMC will automatically rebuild the entire SQL database on startup.
+
+This process takes about 15 minutes, depending on CPU speed
+
+X‑Plane 12 may appear to “hang” during this time
+
+Do NOT interrupt the process
+
+Once X‑Plane shows the normal startup screen again, the SQL build is complete
+
+This is a one‑time operation
+
+✔ Multiplatform Builds (Linux & macOS)
+XFMC now includes builds for:
+
+Linux – fully tested and confirmed working
+
+macOS – builds compile cleanly, but I have no hardware to test them
+If the plugin fails to load, please share your Log.txt so we can identify the cause.
+
+GitHub Actions now automatically builds Linux and macOS versions for every update.
+The macOS compiler produces both:
+
+arm64 (M1/M2)
+
+x64 (Intel)
+
+…but again, these are untested due to lack of hardware.
+
+✔ FMOD Integration Reworked
+Originally, XFMC used its own FMOD integration.
+But since X‑Plane 12 now includes FMOD internally, conflicts appeared — X‑Plane would “steal” FMOD handles during loading.
+
+To fix this:
+
+XFMC’s internal FMOD integration has been removed
+
+XFMC now hooks into X‑Plane 12’s audio system
+
+Audio is played through the Pilot channel
+
+XFMC’s internal volume slider no longer works
+
+No external FMOD libraries are required anymore
+
+XFMC now relies entirely on X‑Plane’s native FMOD system.
+
+✔ Updated Libraries
+Latest FreeType compiled and included
+
+Updated to the latest X‑Plane SDK  
+This required adjustments for gear up/down, flaps, and reverse thrust commands
+
+✔ Beta Status
+These builds are marked as beta because not all platforms and features could be fully tested yet.
+
+✔ Linux Note: Missing GL Libraries
+If XFMC does not load on Linux, the system is likely missing OpenGL libraries.
+Even though X‑Plane 12 runs on Vulkan, the plugin still expects these libs to exist.
+
+Install them with:
+
+Code
+sudo apt update
+sudo apt install libglu1-mesa
+
+====================================================================================
 The May 1 update for XFMC 3.72 is now available, bringing a substantial set of fixes, improvements, and new features. Below is the full changelog.
 Fixes & Improvements
 
