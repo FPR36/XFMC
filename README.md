@@ -1,3 +1,34 @@
+XFMC 3.75 Release – July 1, 2026
+No bugs were reported.
+
+✔ New: LittleNavMap Flightplan Import
+XFMC can now load flightplans created in LittleNavMap, in addition to SimBrief.
+
+How it works
+SimBrief example: EDDFLFPG
+
+LittleNavMap example: EDDF‑LFPG
+
+XFMC will decode and load both formats.
+
+This makes entering a flightplan much easier.
+If enabled in LittleNavMap, SID/STAR waypoints can also be included in the exported plan.
+
+Altitude handling
+LittleNavMap exports altitude values, but with one limitation:
+
+It does not include altitude restrictions such as 8000B or 14000A.
+
+Instead, it exports a calculated altitude for each waypoint.
+
+If your procedure requires specific restrictions, you may need to adjust them manually in the Legs Page.
+
+✔ XFMC CDU
+No bugs found, no update required.
+
+===================================================================
+
+
 XFMC Update 3.73 Beta – Release Notes
 No bugs were reported in the final 3.72 release, so it’s time for a new beta.
 And this one brings a lot of changes.
