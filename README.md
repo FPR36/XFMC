@@ -22,7 +22,7 @@ It does not include altitude restrictions such as 8000B or 14000A.
 Instead, it exports a calculated altitude for each waypoint.
 
 If your procedure requires specific restrictions, you may need to adjust them manually in the Legs Page.
-<br> note: the LnavMap flightplan output should be stored in .../Output/FMC Plans, the same folder where all xplane .fms files are stored
+<br> note: the LnavMap flightplan output should be stored in .../Output/FMC Plans, the same folder where all xplane .fms files are stored<br>
 ✔ XFMC CDU
 No bugs found, no update required.
 
