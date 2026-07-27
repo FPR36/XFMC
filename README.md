@@ -2,23 +2,35 @@ XFMC 3.76 Release – August 1, 2026
 No bugs were reported.
 
 ✔ New: Manual Altitude Restriction Input for Legs
-XFMC now supports entering altitude restrictions directly in the Legs page.
-This allows you to accurately model SID/STAR constraints when Navigraph data is not used.
+XFMC 3.76 introduces the ability to set altitude restrictions directly on any leg, using the same workflow as entering a normal leg altitude.
 
-Supported formats
+How to enter a restriction
+Use the command line to type one of the following formats:
+
+/xxxx
+
+/xxxxB
+
+/xxxxA
+
+/xxxx‑yyyy
+
+Then select the corresponding waypoint in the Legs list using RSK 1–5.
+
+Supported restriction formats
 /10000B → aircraft must level below 10,000 ft
 
 /14000A → aircraft must remain above 14,000 ft
 
-/6000-8000 → aircraft must stay between 6,000 and 8,000 ft
+/6000‑8000 → aircraft must stay between 6,000 and 8,000 ft
 
-These restrictions can be applied to any leg in the flightplan.
+This gives full control to adjust legs according to SID/STAR altitude limits.
 
-✔ Why this matters
-LittleNavMap can export SID/STAR waypoints, but it does not export altitude limits such as 8000B or 14000A.
-Instead, it outputs a calculated altitude, which often does not match the real procedure charts.
+✔ Why this is useful
+When exporting a flightplan from LittleNavMap with SID/STAR enabled, the tool provides a calculated altitude, not the actual chart‑defined restrictions (e.g., 8000B, 14000A).
+If you are flying without Navigraph, these values often need correction.
 
-With XFMC 3.76, you can now manually correct these restrictions to match the actual SID/STAR requirements — ideal when flying without Navigraph.
+With XFMC 3.76, you can now manually set the correct altitude limits, ensuring your procedure matches the real‑world constraints.
 
 =======================================================
 XFMC 3.75 Release – July 1, 2026
