@@ -32,7 +32,7 @@ If you are flying without Navigraph, these values often need correction.
 
 With XFMC 3.76, you can now manually set the correct altitude limits, ensuring your procedure matches the real‑world constraints.
 
-=======================================================
+<BR>=======================================================
 XFMC 3.75 Release – July 1, 2026
 No bugs were reported.
 
