@@ -1,3 +1,22 @@
+XFMC Update 3.77 – One Year of Development
+It has now been one year since XFMC was brought back to life, and a lot has happened during that time. The project has seen major improvements across the board: XFMC runs smoothly on X‑Plane 12, includes its own autopilot, supports airsectors and ACARS, and has received extensive code cleanup and refinement.
+
+On top of that, there is XFMC‑CDU, an Android app that provides a remote CDU linked directly to the XFMC plugin on PC.
+
+At this stage, most major features are already in place, so development is now focused on fine‑tuning and improving the existing systems.
+
+What’s new in 3.77
+Improved Localizer (LLZ) module
+
+More accurate and stable Glideslope behavior
+
+Smoother VNAV altitude hold
+
+The latest files are available on GitHub:
+https://github.com/FPR36/XFMC
+The only thing still missing is a proper manual — hopefully time can be found to create one in the future.
+
+========================================================
 XFMC 3.76 Release – August 1, 2026
 No bugs were reported.
 
