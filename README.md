@@ -1,3 +1,8 @@
+XFMC 3.78.  Small change for the glideslope.  A I term is added in the glideslope logic.  Now the plane arrives with needle centered and soft touch-down.
+
+
+
+
 XFMC Update 3.77 – One Year of Development
 It has now been one year since XFMC was brought back to life, and a lot has happened during that time. The project has seen major improvements across the board: XFMC runs smoothly on X‑Plane 12, includes its own autopilot, supports airsectors and ACARS, and has received extensive code cleanup and refinement.
 
