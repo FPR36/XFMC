@@ -1,3 +1,57 @@
+XFMC 3.80 Update
+
+This update introduces major improvements to both Autoland and Hold functionality.
+
+1. Improved Autoland
+
+The Autoland system has been enhanced with a dynamic Vspeed calculation algorithm.
+
+Benefits
+Smoother flare and touchdown
+More realistic landing behavior
+Reduced tendency for hard landings
+Vspeed is now continuously adapted to aircraft conditions for a softer landing
+2. HOLD Function Updated
+
+The HOLD system has been completely revised.
+
+Vertical Speed Handling
+
+During a hold, the FMC now maintains:
+
+VS = 0 while established in the holding pattern
+Holding Pattern Geometry
+The holding circuit is now aligned parallel to the current track
+This provides a more predictable and realistic hold entry
+Hold Activation Modes
+PPS (Plane Position Hold)
+HOLD is activated immediately at the aircraft's current position.
+No waypoint is required.
+Waypoint Hold
+HOLD can be armed for a predefined waypoint.
+The holding pattern becomes active automatically when that waypoint is reached.
+Speed Management
+
+When entering a hold:
+
+Airspeed is reduced to approximately 200 knots
+Actual target speed depends on the current VCRUISE setting (in knots)
+VNAV Continuity
+
+After exiting a hold, XFMC automatically returns to the VNAV mode that was active before HOLD was entered.
+
+Examples:
+
+DESCEND → HOLD → DESCEND
+CRUISE → HOLD → CRUISE
+CLIMB → HOLD → CLIMB
+
+This ensures seamless flight profile continuity without requiring additional pilot intervention.
+
+Feedback and flight test reports are always welcome. Enjoy XFMC 3.80 and happy flying!
+
+-------------------
+
 XFMC 3.78.  Small change for the glideslope.  A I term is added in the glideslope logic.  Now the plane arrives with needle centered and soft touch-down.
 
 
